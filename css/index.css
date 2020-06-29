@@ -17,6 +17,10 @@ footer{
 	display: block;
 }
 
+a:hover{
+	text-decoration: none;
+}
+
 
 
 
@@ -599,7 +603,7 @@ footer{
 	}
 	.card_s{
 		position: absolute;
-		top: 55%;
+		top: 45%;
 		width: 100%;
 		padding: 10px;
 		margin: 0;
@@ -690,7 +694,7 @@ footer{
 
 	/*gym class section starts*/
 	.Gymclass{
-		height: 80vh;
+		height: 60vh;
 		padding: 50px 100px;
 	}
 
@@ -726,6 +730,7 @@ footer{
 	/*pricing starts*/
 	.pricing{
 		background: #FFFFFF;
+		height: 60vh;
 	}
 
 	.background{
@@ -750,13 +755,17 @@ footer{
 
 	/*gallery section starts*/
 	.gallery{
-		height: 100vh;
+		height: 80vh;
 	}
 	/*gallery section ends*/
 
 	/*carousel section starts*/
 	.slides{
 		height: 100%;
+	}
+
+	.reviews{
+		text-align: center;
 	}
 
 	/*carousel section ends*/
@@ -901,6 +910,13 @@ footer{
 	/*services ends*/
 
 	/*gym class section starts*/
+	.Gymclass{
+		height: 80vh;
+	}
+
+	.pricing{
+		height: 80vh;
+	}
 	
 	/*gym class section ends*/
 
@@ -932,7 +948,18 @@ footer{
 	.slides{
 		height: 60vh;
 	}
+
+	.reviews{
+		text-align: justify;
+	}
 	/*carousel section ends*/
+}
+
+@media all and (min-width: 1140px){
+	.cover{
+		height: 90vh;
+		padding: 240px 150px;
+	}
 }
 
 /*BUTTONS*/

@@ -179,6 +179,10 @@ main{
 
 /* TABLET AND OTHER BIG SCREENS RESPONSIVENESS */
 @media only screen and (min-width: 768px){
+    .topnav{
+        background: linear-gradient(45deg, red 20%, black 20%);
+        background-size: cover;
+    }
     .hide-mobile-nav{
         display: none;
     }
@@ -188,7 +192,7 @@ main{
         font-family: Roboto;
         font-size: 20px;
         font-weight: lighter;
-        margin-left: 50px;
+        margin-left: 30px;
         /*nav section ends*/
     }
 
@@ -196,11 +200,15 @@ main{
     .navigation ,.navigation a{
         display: flex;
         list-style: none;
-        padding: 0 1rem;
+        padding: 0 0.9rem;
         align-items: center;
         justify-content: flex-end;
         color: white;
 
+    }
+
+    .hide{
+        display: block;
     }
 
     footer{
@@ -212,9 +220,8 @@ main{
     }
 
     #hr{
-    background-color: #FFFFFF;
-    /*width: 100%;*/
-    margin: 0 1.2%;
+        background-color: #FFFFFF;
+        margin: 0 1.2%;
     }
 
 
