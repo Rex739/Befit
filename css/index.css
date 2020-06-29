@@ -572,7 +572,7 @@ footer{
 	.cover{
 		font-family: 'Montserrat', sans-serif;
 		background-image: url("../images/landingcover.svg");
-		height: 70vh;
+		height: 100%;
 		color: #FFFFFF;
 		padding: 100px;
 		width: 100%;
