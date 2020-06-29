@@ -33,7 +33,7 @@ a:hover{
 		font-family: 'Montserrat', sans-serif;
 		background-image: url("../images/landingcovermobile.svg");
 		background-repeat: no-repeat;
-		background-size: 100%;
+		background-size: cover;
 		height: 60vh;
 		color: #FFFFFF;
 		padding: 80px 20px 50px 20px;
@@ -545,6 +545,10 @@ a:hover{
 	}
 	/*contact section ends*/
 	
+
+}
+
+@media all and (min-width: 420px){
 
 }
 
