@@ -34,7 +34,6 @@ footer{
 		color: #FFFFFF;
 		padding: 80px 20px 50px 20px;
 		width: 100%;
-		position: relative;
 	}
 
 	#slogan{
@@ -58,7 +57,7 @@ footer{
 	}
 	.card_s{
 		position: absolute;
-		z-index: 0;
+		z-index: 1;
 		top: 60%;
 		width: 100%;
 		padding: 10px;
@@ -597,7 +596,7 @@ footer{
 		
 	}
 	.card_s{
-		position: absolute;
+		position: relative;
 		top: 80%;
 		width: 100%;
 		padding: 10px;
@@ -927,6 +926,8 @@ footer{
 	background-color: #FF4301;
 	border-radius: 5px;
 	color: #FFFFFF;
+	position: relative;
+	z-index: 0
 }
 
 .about-btn{
