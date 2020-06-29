@@ -64,7 +64,7 @@ a:hover{
 	.card_s{
 		position: absolute;
 		z-index: 1;
-		top: 40%;
+		top: 48%;
 		width: 100%;
 		padding: 10px;
 		margin: 0;
@@ -559,6 +559,10 @@ a:hover{
 }
 
 @media all and (min-width: 420px){
+	/*more card responsiveness*/
+	.card_s{
+		top: 40%;
+	}
 
 }
 
@@ -618,7 +622,7 @@ a:hover{
 	}
 	.card_s{
 		position: absolute;
-		top: 45%;
+		top: 48%;
 		width: 100%;
 		padding: 10px;
 		margin: 0;
