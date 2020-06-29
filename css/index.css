@@ -592,7 +592,7 @@ footer{
 	/*card section*/
 	.cards{
 		background-color: white;
-		height: 30vh;
+		height: 100%
 		width: 100%;
 		
 	}
