@@ -53,7 +53,7 @@ footer{
 	/*card section*/
 	.cards{
 		background-color: white;
-		height: 50vh;
+		height: 60vh;
 		width: 100%;
 	}
 	.card_s{
@@ -64,13 +64,16 @@ footer{
 		padding: 10px;
 		margin: 0;
 	}
+	.card-body{
+		height: 200px;
+	}
 
 	.card{
 		height: 200px;
 	}
 
 	.card-title{
-		font-size: 1rem;
+		font-size: 0.9rem;
 	}
 
 	.card-text{
@@ -95,6 +98,10 @@ footer{
 		font-size: 1.2rem;
 		font-weight: bold;
 		line-height: 1.3rem;	
+	}
+
+	.mk{
+		margin-bottom: 10px;
 	}
 
 	
@@ -598,7 +605,7 @@ footer{
 	}
 
 	.card-title{
-		font-size: 1rem;
+		font-size: 2rem;
 	}
 
 	.card-text{
