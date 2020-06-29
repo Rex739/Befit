@@ -60,7 +60,7 @@ footer{
 	.card_s{
 		position: absolute;
 		z-index: 1;
-		top: 45%;
+		top: 35%;
 		width: 100%;
 		padding: 10px;
 		margin: 0;
@@ -830,7 +830,7 @@ footer{
 
 	.card_s{
 		position: absolute;
-		top: 90%;
+		top: 75%;
 	}
 
 	.card{
