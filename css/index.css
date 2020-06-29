@@ -174,13 +174,13 @@ a:hover{
 	.services-intro{
 		display: grid;
 		width: 100%;
-		height: 20vh;
+		height: 10vh;
 		background-image: url("../images/services-intro.svg");
 		margin: 0;
 	}
 
 	.extra{
-		height: 20vh;
+		height: 10vh;
 	}
 
 	.services-introwrapper{
@@ -659,11 +659,11 @@ a:hover{
 
 	/*about section begins*/
 	.about{
-		height: 60vh;
+		height: 30vh;
 	}
 
 	.about-img{
-		height: 55vh;
+		height: 30vh;
 		width: 100%;
 	}
 
@@ -696,12 +696,12 @@ a:hover{
 		 url("../images/servicescover1.svg"),
 		 url("../images/servicescover2.svg");
 		 background-position: 
-		 90% 50%,
-		 65% 45%;
+		 90% 10%,
+		 75% 2%;
 		background-size:
 		310px, 300px;
 		background-repeat: no-repeat;
-		height: 40vh;
+		height: 30vh;
 	}
 
 
