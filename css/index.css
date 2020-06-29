@@ -697,7 +697,7 @@ a:hover{
 		 url("../images/servicescover2.svg");
 		 background-position: 
 		 90% 50%,
-		 75% 2%;
+		 88% 2%;
 		background-size:
 		310px, 300px;
 		background-repeat: no-repeat;
@@ -710,7 +710,7 @@ a:hover{
 
 	/*gym class section starts*/
 	.Gymclass{
-		height: 40vh;
+		height: 100%;
 		padding: 50px 100px;
 	}
 
@@ -746,7 +746,7 @@ a:hover{
 	/*pricing starts*/
 	.pricing{
 		background: #FFFFFF;
-		height: 40vh;
+		height: 100%;
 	}
 
 	.background{
