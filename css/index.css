@@ -147,7 +147,7 @@ a:hover{
 		font-style: normal;
 		font-weight: bold;
 		font-size: 18px;
-		line-height: 25px;
+		line-height: 30px;
 		color: #000000;
 		padding: 15px 0;
 
@@ -174,7 +174,7 @@ a:hover{
 	.services-intro{
 		display: grid;
 		width: 100%;
-		height: 30vh;
+		height: 20vh;
 		background-image: url("../images/services-intro.svg");
 		margin: 0;
 	}
@@ -216,7 +216,7 @@ a:hover{
 	.services{
 		background: #FBFAFB;
 		padding: 2.0%;
-		height: 60vh;
+		height: 50vh;
 
 	}
 
@@ -234,11 +234,15 @@ a:hover{
 		background-size:
 		200px, 205px;
 		background-repeat: no-repeat;
-		height: 60vh;
+		height: 50vh;
 	}
 
 	.sev-img{
 		height: 30px;
+	}
+
+	#special{
+		font-size: 16px;
 	}
 	/*services ends*/
 
@@ -277,6 +281,7 @@ a:hover{
 		color: #000000;
 
 	}
+
 
 	.cls{
 		display: flex;
@@ -587,7 +592,7 @@ a:hover{
 		font-family: 'Montserrat', sans-serif;
 		background-image: url("../images/landingcover.svg");
 		background-size: cover;
-		height: 60vh;
+		height: 50vh;
 		color: #FFFFFF;
 		padding: 100px;
 		width: 100%;
@@ -681,9 +686,10 @@ a:hover{
 	/*services start*/
 	.services{
 		padding: 4.8%;
-		height: 80vh;
+		height: 50vh;
 
 	}
+	
 
 	.services-img{
 		background-image:
@@ -695,7 +701,7 @@ a:hover{
 		background-size:
 		310px, 300px;
 		background-repeat: no-repeat;
-		height: 70vh;
+		height: 40vh;
 	}
 
 
