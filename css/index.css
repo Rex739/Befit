@@ -34,6 +34,8 @@ footer{
 		color: #FFFFFF;
 		padding: 80px 20px 50px 20px;
 		width: 100%;
+		position: relative;
+		z-index: 0;
 	}
 
 	#slogan{
@@ -52,17 +54,19 @@ footer{
 	/*card section*/
 	.cards{
 		background-color: white;
-		height: 50vh;
+		height: 45vh;
 		width: 100%;
 	}
 	.card_s{
-		top: 60%;
+		position: absolute;
+		z-index: 1;
+		top: 45%;
 		width: 100%;
 		padding: 10px;
 		margin: 0;
 	}
 	.card-body{
-		height: 220px;
+		height: 225px;
 	}
 
 	.card{
@@ -150,7 +154,7 @@ footer{
 		font-family: Open Sans;
 		font-style: normal;
 		font-weight: normal;
-		font-size: 16px;
+		font-size: 15px;
 		line-height: 22px;
 		color: #FF4301;
 
@@ -589,26 +593,26 @@ footer{
 	/*card section*/
 	.cards{
 		background-color: white;
-		height: 100%
+		height: 20vh;
 		width: 100%;
 		
 	}
 	.card_s{
-		position: relative;
-		top: 80%;
+		position: absolute;
+		top: 55%;
 		width: 100%;
 		padding: 10px;
 		margin: 0;
 	}
 
 	.card-title{
-		font-size: 2rem;
+		font-size: 1rem;
 	}
 
 	.card-text{
 		display: flex;
 		align-items: flex-end;
-		font-size: 0.8rem;
+		font-size: 0.7rem;
 		line-height: 1.5rem;
 	}
 
@@ -642,6 +646,10 @@ footer{
 	.about-img{
 		height: 55vh;
 		width: 100%;
+	}
+
+	.about-inner{
+		padding: 50px;
 	}
 
 	/*about section ends*/
@@ -849,6 +857,14 @@ footer{
 
 	.aboutwrapper{
 		padding: 40px;
+	}
+
+	.about-inner{
+		padding: 100px;
+	}
+
+	.about-text{
+		margin-top: 20px;
 	}
 	/*about section ends*/
 

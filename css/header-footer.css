@@ -21,6 +21,8 @@ footer{
 /*desktop nav section*/
 header{
     width: 100%;
+    position: fixed;
+    z-index: 3;
 }
 main{
     width: 100%;
