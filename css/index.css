@@ -536,11 +536,15 @@ a:hover{
 
 	}
 
+	.subtitle{
+		font-size: 20px;
+	}
+
 	.date{
 		font-family: Montserrat;
 		font-style: normal;
 		font-weight: 600;
-		font-size: 18px;
+		font-size: 16px;
 		line-height: 28px;
 		color: #FFFFFF;
 	}
@@ -554,10 +558,12 @@ a:hover{
 		color: #FF4301;
 	}
 
-	.subtitle{
-		font-size: 20px;
-	}
+	
 	/*contact section ends*/
+	#maps{
+		width: 100%;
+		height: 100%;
+	}
 	
 
 }
@@ -602,6 +608,11 @@ a:hover{
 
 	.grey{
 		height: 35vh;
+	}
+	/*map section*/
+	#maps{
+		width: 100%;
+		height: 100%;
 	}
 
 
@@ -1057,3 +1068,5 @@ a:hover{
 .test-btn{
 	margin-top: 3.75%;
 }
+
+
