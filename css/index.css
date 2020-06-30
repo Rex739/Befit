@@ -92,12 +92,14 @@ a:hover{
 	.grey{
 		background: #FBFAFB;
 		color: #000000;
+		height: 50vh;
 
 	}
 
 	.orange{
 		background: #FF4301;
 		color: #FFFFFF;
+		height: 50vh;
 
 	}
 
@@ -575,6 +577,11 @@ a:hover{
 		font-weight: normal;
 
 	}
+
+	.cards{
+		height: 65vh;
+	}
+
 	.card_s{
 		top: 40%;
 		padding: 10px;
@@ -585,11 +592,22 @@ a:hover{
 		height: 60vh;
 	}
 
+	.orange{
+		height: 35vh;
+	}
+
+	.grey{
+		height: 35vh;
+	}
+
 
 
 }
 
 @media all and (min-width: 575px){
+	.cards{
+		height: 70vh;
+	}
 	.pricing{
 		display: none;
 	}
@@ -643,7 +661,7 @@ a:hover{
 	/*card section*/
 	.cards{
 		background-color: white;
-		height: 10vh;
+		height: 30vh;
 		width: 100%;
 		
 	}
