@@ -64,7 +64,7 @@ a:hover{
 	.card_s{
 		position: absolute;
 		z-index: 1;
-		top: 55%;
+		top: 52%;
 		width: 100%;
 		padding: 2px;
 		margin: 0;
@@ -661,7 +661,7 @@ a:hover{
 	/*card section*/
 	.cards{
 		background-color: white;
-		height: 30vh;
+		height: 22vh;
 		width: 100%;
 		
 	}
@@ -900,14 +900,14 @@ a:hover{
 
 	.cards{
 		background-color: white;
-		height: 30vh;
+		height: 20vh;
 		width: 100%;
 		
 	}
 
 	.card_s{
 		position: absolute;
-		top: 75%;
+		top: 80%;
 	}
 
 	.card{
