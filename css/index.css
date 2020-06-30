@@ -687,11 +687,13 @@ a:hover{
 	.grey{
 		background: #FBFAFB;
 		color: #000000;
+		height: 30vh;
 	}
 
 	.orange{
 		background: #FF4301;
 		color: #FFFFFF;
+		height: 30vh;
 
 	}
 
