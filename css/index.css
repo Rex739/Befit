@@ -584,7 +584,11 @@ a:hover{
 		display: block;
 	}
 }
-
+@media all and (min-width: 768px) and (orientation: portrait){
+	.cover{
+		padding: 200px;
+	}
+}
 @media all and (min-width: 768px){
 	/*cover section*/
 
