@@ -822,6 +822,8 @@ a:hover{
 	.clas2{
 		font-size: 15px;
 	}
+
+
 	
 	/*gym class section ends*/
 
@@ -895,6 +897,10 @@ a:hover{
 
 	.title{
 		font-size: 2.25rem;
+	}
+
+	.ss{
+		font-size: 13px;
 	}
 
 		
@@ -1095,5 +1101,4 @@ a:hover{
 .test-btn{
 	margin-top: 3.75%;
 }
-
 
