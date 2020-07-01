@@ -184,8 +184,12 @@ main{
     font-size: 1.563rem;
     color: #FF4301;
 }
-
-
+/*SMALL SCREEN RESPONSIVENESS*/
+@media all and (min-width: 240px) and (min-height: 320px){
+    .mobile-foot{
+        height: 100%;
+    }
+}
 
 
 /* TABLET AND OTHER BIG SCREENS RESPONSIVENESS */
@@ -302,7 +306,12 @@ main{
 
 }
 
-@media only screen and (min-width: 768px) and (min-height: 768px){
+@media only screen and (min-width: 768px) and (min-height: 1024px){
+    .navigation, .navigation a{
+        font-size: 10px;
+        padding: 0 0.4rem;
+    }
+
     .list{
         padding: 0px;
     }
@@ -331,7 +340,13 @@ main{
         font-size: 32px;
         font-weight: lighter;
         margin-left: 60px;
-        /*nav section ends*/
     }
 
+}
+
+@media all and (min-width: 1024px) and (min-height: 768px){
+    .navigation, .navigation a{
+        font-size: 12px;
+        padding: 0 0.6rem;
+    }   
 }
