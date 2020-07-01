@@ -966,6 +966,10 @@ a:hover{
 	.cover{
 		padding-top: 300px;
 	}
+
+	.services{
+		height: 35vh;
+	}
 }
 
 @media all and (min-width: 992px){
