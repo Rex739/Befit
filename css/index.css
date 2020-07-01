@@ -646,12 +646,31 @@ a:hover{
 		display: block;
 	}
 }
-@media all and (min-width: 768px) and (orientation: landscape){
-	.cover{
-		padding: 200px;
-	}
-}
 @media all and (min-width: 768px){
+	.show{
+		display: none;
+	
+	}
+	.cards{
+		height: 15vh;
+	}
+	.orange{
+		height: 20vh;
+	}
+
+	.grey{
+		height: 20vh;
+	}
+
+	.services-img{
+		background-size: 315px, 300px;
+		background-position: 
+		100% 30%,
+		50% 10%;
+	}
+	
+}
+@media all and (min-width: 780px){
 	/*cover section*/
 
 	.hide{
@@ -982,7 +1001,7 @@ a:hover{
 	.services-introwrapper{
 		margin: 0;
 		align-items: center;
-		padding-left: 1000px;
+		padding-left: 100px;
 		
 	}
 
