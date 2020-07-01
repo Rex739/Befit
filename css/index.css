@@ -944,7 +944,7 @@ a:hover{
 	
 }
 
-@media all and (min-width: 780px) and (min-height: 900px) {
+@media all and (min-width: 780px) and (min-height: 1322px) {
 	.card_s{
 		position: absolute;
 		top: 47%;
@@ -968,7 +968,7 @@ a:hover{
 	}
 
 	.services{
-		height: 35vh;
+		height: 40vh;
 	}
 }
 
