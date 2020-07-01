@@ -58,7 +58,7 @@ a:hover{
 	/*card section*/
 	.cards{
 		background-color: white;
-		height: 100vh;
+		height: 80vh;
 		width: 100%;
 	}
 	.card_s{
@@ -591,7 +591,7 @@ a:hover{
 	}
 
 	.cards{
-		height: 65vh;
+		height: 55vh;
 	}
 
 	.card_s{
@@ -606,6 +606,10 @@ a:hover{
 
 	.about-img{
 		height: 50vh;
+	}
+
+	.about-content{
+		padding: 12px 20px;
 	}
 
 	.orange{
@@ -942,7 +946,7 @@ a:hover{
 
 	.cards{
 		background-color: white;
-		height: 20vh;
+		height: 30vh;
 		width: 100%;
 		
 	}
@@ -957,12 +961,12 @@ a:hover{
 	}
 
 	.orange{
-		height: 20vh;
+		height: 30vh;
 		
 	}
 
 	.grey{
-		height: 20vh;
+		height: 30vh;
 
 	}
 	/*card section ends*/
@@ -1080,6 +1084,58 @@ a:hover{
 		height: 90vh;
 		padding: 240px 150px;
 	}
+
+	.card-title{
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 26px;
+		line-height: 32px;
+
+	}
+
+	.card-text{
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 16px;
+		line-height: 26px;
+	}
+
+	.about-text{
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 18px;
+		line-height: 28px;
+	}
+
+	#aboutsubtitle{
+		font-size: 20px;
+	}
+
+	.prog{
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 24px;
+		line-height: 28px;
+		color: #000000;
+
+	}
+
+	#special{
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		line-height: 28px;
+	}
+
+	.mn{
+		margin: 20px 0px 16px;
+	}
+
 }
 
 /*BUTTONS*/
@@ -1090,8 +1146,8 @@ a:hover{
 }
 
 .about-btn{
-	margin-left: 10px;
-	font-size: 10px;
+	font-size: 12px;
+	padding: 12px 20px;
 }
 
 .cal-btn{
