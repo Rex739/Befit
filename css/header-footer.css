@@ -300,13 +300,6 @@ main{
         display: flex;
     }
 
-    .vet{
-        height: 100px;
-    }
-
-
-
-
 }
 
 @media only screen and (min-width: 992px){
