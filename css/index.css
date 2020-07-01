@@ -702,7 +702,7 @@ a:hover{
 	}
 }
 
-@media all and (min-width: 375px) and (min-height: 812px){
+@media all and (min-width: 360px) and (min-height: 812px){
 	.about-img{
 		height: 40vh;
 	}
@@ -720,7 +720,7 @@ a:hover{
 	}
 
 	.services{
-		height: 50vh;
+		height: 45vh;
 	}
 }
 
