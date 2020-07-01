@@ -242,7 +242,7 @@ a:hover{
 		 100% 12%,
 		 80% 0.1%;
 		background-size:
-		200px, 205px;
+		200px, 200px;
 		background-repeat: no-repeat;
 		height: 50vh;
 	}
@@ -621,7 +621,7 @@ a:hover{
 	}
 
 	.services{
-		height: 30vh;
+		height: 40vh;
 	}
 	/*map section*/
 	#maps{
@@ -652,6 +652,10 @@ a:hover{
 
 	.hide1{
 		display: block;
+	}
+
+	.services{
+		height: 50vh;
 	}
 }
 @media all and (min-width: 768px){
