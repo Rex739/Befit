@@ -1221,7 +1221,7 @@ a:hover{
 
 .cards{
 	animation-name: slidein;
-	animation-duration: 2s;
+	animation-duration: 0.5s;
 }
 
 @keyframes slidein{
