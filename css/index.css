@@ -698,7 +698,7 @@ a:hover{
 		background-size:
 		210px, 200px;
 		background-repeat: no-repeat;
-		height: 50vh;
+		height: 52vh;
 	}
 	.about-btn{
 		font-size: 8px;
@@ -761,7 +761,7 @@ a:hover{
 	}
 
 	.about-img{
-		height: 50vh;
+		height: 40vh;
 	}
 
 	.about-content{
@@ -799,6 +799,8 @@ a:hover{
 		top: 55%;
 	
 	}
+
+
 }
 
 @media all and (min-width: 480px) and (min-height: 640px){
@@ -850,6 +852,11 @@ a:hover{
 
 	.services{
 		height: 50vh;
+	}
+
+	.about-img{
+		height: 50vh;
+
 	}
 }
 @media all and (min-width: 768px){
