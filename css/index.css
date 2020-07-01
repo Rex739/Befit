@@ -700,6 +700,11 @@ a:hover{
 		background-repeat: no-repeat;
 		height: 50vh;
 	}
+	.about-btn{
+		font-size: 8px;
+		padding: 12px 20px;
+}
+
 }
 
 @media all and (min-width: 375px) and (min-height: 812px){
