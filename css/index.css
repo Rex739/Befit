@@ -652,7 +652,7 @@ a:hover{
 		height: 80vh;
 	}
 
-	.orange{
+	.grey{
 		height: 40vh;
 	}
 
@@ -668,6 +668,24 @@ a:hover{
 		height: 20px;
 	}
 
+}
+
+@media all and (min-width: 375px) and (min-height: 812px){
+	.about-img{
+		height: 55vh;
+	}
+
+	.cards{
+		height: 70vh;
+	}
+
+	.orange{
+		height: 35vh;
+	}
+
+	.grey{
+		height: 35vh;
+	}
 }
 
 
@@ -1346,12 +1364,12 @@ a:hover{
 
 @keyframes slidein{
 	from {
-		margin-left: 30%;
+		margin-bottom: 30%;
 		width: 300%
 	}
 
 	to{
-		margin-left: 0%;
+		margin-bottom: 0%;
 		width: 100%;
 	}
 }
