@@ -1217,4 +1217,21 @@ a:hover{
 	margin-top: 3.75%;
 }
 
+/*aminations*/
 
+.cards{
+	animation-name: slidein;
+	animation-duration: 2s;
+}
+
+@keyframes slidein{
+	from {
+		margin-left: 30%;
+		width: 300%
+	}
+
+	to{
+		margin-left: 0%;
+		width: 100%;
+	}
+}
