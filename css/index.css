@@ -709,13 +709,13 @@ a:hover{
 		padding: 12px 20px;
 	}
 
+	.orange{
+		height: 25vh;
+	}
+
 	.about-btn{
 		font-size: 12px;
 		padding: 12px 20px;
-	}
-
-	.orange{
-		height: 25vh;
 	}
 
 	.grey{
@@ -734,15 +734,20 @@ a:hover{
 
 
 }
-@media all and (min-width: 480px) and (min-height: 640px){
+@media all and (min-width: 420px) and (min-height: 640px){
 	.card_s{
 		
 		top: 55%;
 	
 	}
+}
 
+@media all and (min-width: 480px) and (min-height: 640px){
 	.cards{
 		height: 45vh;
+	}
+	.card_s{
+		top: 55%;
 	}
 }
 
