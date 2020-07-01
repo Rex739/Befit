@@ -962,6 +962,10 @@ a:hover{
 	.grey{
 		height: 11vh;
 	}
+
+	.cover{
+		padding-top: 200px;
+	}
 }
 
 @media all and (min-width: 992px){
