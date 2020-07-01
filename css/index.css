@@ -619,6 +619,10 @@ a:hover{
 	.grey{
 		height: 25vh;
 	}
+
+	.services{
+		height: 20vh;
+	}
 	/*map section*/
 	#maps{
 		width: 100%;
