@@ -1063,11 +1063,11 @@ a:hover{
 @media all and (min-width: 780px) and (min-height: 1322px) {
 	.card_s{
 		position: absolute;
-		top: 46%;
+		top: 55%;
 	}
 
 	.cards{
-		height: 10vh;
+		height: 15vh;
 
 	}
 
