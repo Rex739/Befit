@@ -734,7 +734,7 @@ a:hover{
 
 
 }
-@media all and (min-width: 420px) and (min-height: 640px){
+@media all and (min-width: 480px) and (min-height: 640px){
 	.card_s{
 		
 		top: 55%;
