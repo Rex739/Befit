@@ -757,7 +757,7 @@ a:hover{
 	}
 
 	.about{
-		height: 60vh;
+		height: 55vh;
 	}
 
 	.about-img{
@@ -858,6 +858,11 @@ a:hover{
 		height: 50vh;
 
 	}
+
+	.about{
+		height: 55vh;
+	}
+
 }
 @media all and (min-width: 768px){
 	.show{
