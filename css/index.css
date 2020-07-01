@@ -1072,6 +1072,34 @@ a:hover{
 	}
 
 	.orange{
+		height: 16vh;
+	}
+
+	.grey{
+		height: 16vh;
+	}
+
+	.cover{
+		padding-top: 300px;
+	}
+
+	.services{
+		height: 40vh;
+	}
+}
+
+@media all and (min-width: 820px) and (min-height: 1322px) {
+	.card_s{
+		position: absolute;
+		top: 60%;
+	}
+
+	.cards{
+		height: 15vh;
+
+	}
+
+	.orange{
 		height: 11vh;
 	}
 
