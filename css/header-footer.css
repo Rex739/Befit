@@ -191,6 +191,11 @@ main{
     }
 }
 
+@media all and (min-width: 420px){
+    .mobile-foot{
+        height: 100vh;
+    }   
+}
 
 /* TABLET AND OTHER BIG SCREENS RESPONSIVENESS */
 @media only screen and (min-width: 768px){
