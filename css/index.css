@@ -757,7 +757,6 @@ a:hover{
 	.about{
 		height: 55vh;
 	}
-
 }
 /*media query for standard tablet*/
 @media all and (min-width: 768px){
@@ -772,10 +771,7 @@ a:hover{
 	.grey, .orange{
 		height: 25vh;
 		padding: 10px;
-	}
-
-	
-	
+	}	
 }
 /*media query for Ipad and similar screen sizes*/
 @media all and (min-width: 768px) and (min-height: 1024px){
@@ -1204,7 +1200,7 @@ a:hover{
 	}
 
 	.card-text{
-		font: 16px/16px Montserrat;
+		font: 16px/26px Montserrat;
 	}
 
 	.about-text{
@@ -1259,8 +1255,7 @@ a:hover{
 }
 
 .gallery{
-	filter: saturate(70%);
-	
+	filter: saturate(70%);	
 }
 
 .gallery:hover{
