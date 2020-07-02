@@ -1376,7 +1376,7 @@ a:hover{
 		font-family: Montserrat;
 		font-style: normal;
 		font-weight: normal;
-		font-size: 18px;
+		font-size: 16px;
 		line-height: 28px;
 	}
 
@@ -1440,6 +1440,8 @@ a:hover{
 .Gymclass:hover{
 	filter: saturate(100%);
 	transition-duration: 1s;
+	animation-name: x;
+	animation-duration: 2s;
 }
 
 .gallery{
