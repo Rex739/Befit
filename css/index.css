@@ -1199,12 +1199,16 @@ a:hover{
 		font-weight: bold;
 	}
 
+	.orange, .grey{
+		padding: 10px 30px;
+	}
+
 	.card-text{
 		font: 16px/26px Montserrat;
 	}
 
 	.about-text{
-		font: 18px/28px Montserrat;
+		font: 16px/28px Montserrat;
 	}
 
 	#aboutsubtitle{
