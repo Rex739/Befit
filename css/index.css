@@ -940,10 +940,10 @@ a:hover{
 /*media query for most phones(desktop view)*/
 @media all and (min-width: 780px) and (min-height: 1122px) {
 	.card_s{
-		margin-top: -50vw;
+		margin-top: -52vw;
 	}
 	.cards{
-		height: 45vw;
+		height: 25vw;
 	}
 	.grey, .orange{
 		height: 20vw;
