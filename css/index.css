@@ -1230,6 +1230,12 @@ a:hover{
 	.subtitle{
 		font-size: 20px;
 	}
+	.background{
+		background: #FBFAFB;	
+	}
+	.gym-img{
+		padding: 0;
+	}
 }
 @media all and (min-width: 1440px) and (min-height: 695px){
 	.card_s{
