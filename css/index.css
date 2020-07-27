@@ -1161,6 +1161,9 @@ a:hover{
 	}
 }
 @media all and (min-width: 1440px){
+	.cards{
+		height: 20vw;
+	}
 	.cover{
 		height: 50vw;
 		padding: 10rem 4rem;
@@ -1178,6 +1181,7 @@ a:hover{
 	}
 
 	.orange, .grey{
+		height: 20vw;
 		padding: 10px 30px;
 	}
 
