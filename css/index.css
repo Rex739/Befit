@@ -938,7 +938,7 @@ a:hover{
 }
 
 /*media query for most phones(desktop view)*/
-@media all and (min-width: 780px) and (min-height: 1322px) {
+@media all and (min-width: 780px) and (min-height: 1122px) {
 	.card_s{
 		margin-top: -30vw;
 	}
