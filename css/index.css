@@ -1082,6 +1082,26 @@ a:hover{
 	}
 	/*carousel section ends*/
 }
+@media all and (min-width: 1024px){
+	.cover{
+		padding-left: 2rem;
+	}
+	.card_s{
+		margin-top: -4vw;
+	}
+	.cards{
+		height: 15vw;
+	}
+	.about-inner{
+		padding: 0;
+	}
+	.about-img{
+		height: 30vw;
+	}
+	.about{
+		height: 100%;
+	}
+}
 @media all and (min-width: 1024px) and (min-height: 1366px){
 	.card_s{
 		margin-top: -62vw;
