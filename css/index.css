@@ -81,10 +81,9 @@ a:hover{
 	.card_s{
 		position: absolute;
 		z-index: 1;
-		top: 52%;
 		width: 100%;
 		padding: 2px;
-		margin: 0;
+		margin-top: -20vw;
 	}
 	.card-body{
 		height: 350px;	
@@ -143,7 +142,7 @@ a:hover{
 		background-size: cover;
 		background-repeat: no-repeat;
 		width: 100%;
-		height: 60vh;
+		height: 60vw;
 
 	}
 
@@ -220,30 +219,21 @@ a:hover{
 		line-height: 22px;
 		color: #000000;
 	}
+	.serv{
+		width: 100%;
+		margin-top: 10vw;
+		box-shadow: -0.5rem -0.5rem 0 0 red;
+	}
 
 	.services{
 		background: #FBFAFB;
-		padding: 2.0%;
-		height: 50vh;
+		padding: 5.0%;
+		height: 100%;
 	}
 
 	.serviceswrapper{
 		width: 100%
 	}
-
-	.services-img{
-		background-image:
-		 url("../images/servicescover1.svg"),
-		 url("../images/servicescover2.svg");
-		 background-position: 
-		 100% 12%,
-		 60% 0.1%;
-		background-size:
-		210px, 200px;
-		background-repeat: no-repeat;
-		height: 50vh;
-	}
-
 	.sev-img{
 		height: 30px;
 	}
@@ -528,34 +518,23 @@ a:hover{
 	.cover{
 		height: 100%;
 	}
-
 	.card_s{
-		/*position: relative;*/
-		top: 110%;	
+		margin-top: -15vw;
 	}
-
 	.cards{
-		height: 195vh;
+		height: 200vw;
 	}
 
 	.orange, .grey{
-		height: 100vh;
+		height: 100vw;
+		padding: 1rem 0.4rem; 
 	}
-
-	.services{
-		height: 100%;
-	}
-
-	.services-img{
-		height: 120vh;
-	}
-
 	.about{
 		height: 100%;
 	}
 
 	.about-img{
-		height: 120vh;
+		height: 180vw;
 	}
 
 	.about-btn{
@@ -570,54 +549,39 @@ a:hover{
 /*media query for Iphone 5/SE and similar screen sizes*/
 @media all and (min-width: 320px) and (min-height: 480px){
 	.cover{
-		height: 70vh;
+		height: 120vw;
 	}
 	.cards{
 		height: 80vh;
 	}
-
 	.orange, .grey{
 		height: 40vh;
 	}
-
 	.card_s{
-		top: 62%;
+		margin-top: -20vw;
 	}
-
 	.introimg{
 		height: 20px;
+	}
+	.about-img{
+		height: 100vw;
 	}
 }
 /*media query for Iphone X and similar screen sizes*/
 @media all and (min-width: 320px) and (min-height: 500px){
-	.about-img{
-		height: 50vh;
-	}
-
 	.cards{
-		height: 70vh;
+		height: 110vw;
 	}
 
 	.orange, .grey{
-		height: 35vh;
-	}
-
-	.services{
-		height: 50vh;
-	}
-
-	.services-img{
-		background-position: 
-		100% 7%,
-		60% 0.1%;
-		background-size:
-		210px, 200px;
-		background-repeat: no-repeat;
-		height: 52vh;
+		height: 60vw;
 	}
 	.about-btn{
 		font-size: 8px;
 		padding: 12px 20px;
+	}
+	.about-img{
+		height: 80vw;
 	}
 }
 /*media query for Iphone 6/7/8 and similar screen sizes*/
@@ -627,19 +591,21 @@ a:hover{
 	}
 
 	.cards{
-		height: 70vh;
+		height: 80vw;
 	}
-
 	.orange, .grey{
-		height: 35vh;
+		height: 45vw;
+	}
+	.about-img{
+		height: 80vw;
 	}
 
-	.services{
-		height: 45vh;
-	}
 }
 /*media query for Huawei Y9 2019 and similar screen sizes*/
-@media all and (min-width: 420px){
+@media all and (min-width: 410px){
+	.cover{
+		height: 100vw;
+	}
 	#slogan{
 		font-family: 'Montserrat', sans-serif;
 		font-size: 1.875rem;
@@ -651,21 +617,19 @@ a:hover{
 	}
 
 	.cards{
-		height: 45vh;
+		height: 80vw;
 	}
 
 	.card_s{
-		top: 40%;
 		padding: 10px;
-		margin: 0;
 	}
 
 	.about{
-		height: 50vh;
+		height: 100%;
 	}
 
 	.about-img{
-		height: 40vh;
+		height: 70vw;
 	}
 
 	.about-content{
@@ -673,59 +637,42 @@ a:hover{
 	}
 
 	.orange, .grey{
-		height: 25vh;
+		height: 45vw;
 	}
 
 	.about-btn{
 		font-size: 12px;
-		padding: 12px 20px;
-	}
-
-	.services{
-		height: 40vh;
+		padding: 8px 10px;
 	}
 	/*map section*/
 	#maps{
 		width: 100%;
 		height: 100%;
 	}
-
-
-
 }
 /*more card responsiveness*/
-@media all and (min-width: 420px) and (min-height: 640px){
-	.card_s{
-		
-		top: 55%;
-	}
-}
-/*media query for small tablet*/
-@media all and (min-width: 480px) and (min-height: 640px){
-	.cards{
-		height: 45vh;
-	}
-	.card_s{
-		top: 55%;
-	}
-}
+
 
 /*media query for medium sized tablet*/
 @media all and (min-width: 575px){
+	.cover{
+		height: 80vw;
+	}
 	.cards{
-		height: 50vh;
+		height: 80vw;
 	}
 
 	.card-title{
-		font-size: 15px;
+		font-size: 1rem;
 	}
 
 	.card-text{
 		font-size: 13px;
+		line-height: 20px;
 	}
 
-	.grey .orange{
-		padding: 20px 40px;
+	.grey, .orange{
+		padding: 1rem 2rem;
 	}
 
 	.pricing{
@@ -735,43 +682,46 @@ a:hover{
 		height: 100%;
 		padding: 50px;
 	}
-
 	.gal-class{
 		padding-left: 0;
-		font-size: 16px;
+		font-size: 1rem;
 	}
-
 	.hide1{
 		display: block;
 	}
-
-	.services{
-		height: 50vh;
-	}
-
 	.about-img{
-		height: 50vh;
-
+		height: 50vw;
 	}
-
 	.about{
-		height: 55vh;
+		height: 55%;
 	}
 }
 /*media query for standard tablet*/
 @media all and (min-width: 768px){
+	.cover{
+		height: 60vw;
+		padding: 10rem 2rem;
+	}
 	.show{
 		display: none;
-	
+	}
+	.card_s{
+		margin-top: -13vw;
 	}
 	.cards{
-		height: 20vh;
+		height: 20vw;
 	}
-
 	.grey, .orange{
-		height: 25vh;
+		height: 25vw;
 		padding: 10px;
 	}	
+	.serv{
+		width: 100%;
+		margin: auto;
+	}
+	.services-content{
+		padding-top: 0;
+	}
 }
 /*media query for Ipad and similar screen sizes*/
 @media all and (min-width: 768px) and (min-height: 1024px){
@@ -779,7 +729,6 @@ a:hover{
 	.hide{
 		display: block;
 	}
-
 	.cover{
 		font-family: 'Montserrat', sans-serif;
 		background-image: url("../images/landingcover.svg");
@@ -855,11 +804,11 @@ a:hover{
 
 	/*about section begins*/
 	.about{
-		height: 40vh;
+		height: 100%;
 	}
 
 	.about-img{
-		height: 38vh;
+		height: 50vw;
 		width: 100%;
 	}
 
@@ -885,23 +834,10 @@ a:hover{
 		height: 100%
 
 	}
-	
-	.services-img{
-		background-image:
-		 url("../images/servicescover1.svg"),
-		 url("../images/servicescover2.svg");
-		background-size: 315px, 300px;
-		background-position: 
-		100% 30%,
-		50% 10%;
-		background-repeat: no-repeat;
-		height: 30vh;
-	}
 	/*services ends*/
 	/*gym class section starts*/
 	.Gymclass{
 		height: 100%;
-		padding: 50px 100px;
 	}
 
 	.Gymclasswrapper{
@@ -1004,49 +940,17 @@ a:hover{
 /*media query for most phones(desktop view)*/
 @media all and (min-width: 780px) and (min-height: 1322px) {
 	.card_s{
-		position: absolute;
-		top: 55%;
+		margin-top: -30vw;
 	}
-
 	.cards{
 		height: 15vh;
-
 	}
-
 	.grey, .orange{
 		height: 16vh;
 	}
-
 	.cover{
-		padding-top: 300px;
-	}
-
-	.services{
-		height: 40vh;
-	}
-}
-/*media query for Ipad pro and similiar screen sizes*/
-@media all and (min-width: 820px) and (min-height: 1322px) {
-	.card_s{
-		position: absolute;
-		top: 60%;
-	}
-
-	.cards{
-		height: 15vh;
-
-	}
-
-	.grey, .orange{
-		height: 11vh;
-	}
-
-	.cover{
-		padding-top: 300px;
-	}
-
-	.services{
-		height: 40vh;
+		padding-left: 2rem;
+		height: 100%;
 	}
 }
 /*media query for small/medium laptop and bigger tablet screens*/
@@ -1091,6 +995,7 @@ a:hover{
 
 	.grey, .orange{
 		height: 30vh;
+		box-shadow: -2px 10px 10px 0px #E5E5E5;
 
 	}
 	/*card section ends*/
@@ -1132,23 +1037,6 @@ a:hover{
 	}
 	/*service into ends*/
 	/*services start*/
-	.services{
-		padding: 6.4%;
-		height: 80vh;
-	}
-
-	.services-img{
-		background-image:
-		 url("../images/servicescover1.svg"),
-		 url("../images/servicescover2.svg");
-		 background-position: 
-		 70% 50%,
-		 60% 10%;
-		background-size:
-		350px, 350px;
-		background-repeat: no-repeat;
-		height: 70vh;
-	}
 	/*services ends*/
 	/*gym class section starts*/
 	.Gymclass{
@@ -1185,13 +1073,73 @@ a:hover{
 	.reviews{
 		text-align: justify;
 	}
+	.services{
+		height: 100%;
+	}
+	.serv{
+		width: 70%;
+		margin: auto;
+	}
 	/*carousel section ends*/
 }
+@media all and (min-width: 1024px) and (min-height: 1366px){
+	.card_s{
+		margin-top: -62vw;
+	}
+	.cover{
+		height: 100%;
+		padding-left: 2rem;
+	}
+	.orange, .grey{
+		height: 25vw;
+	}
+	.cards{
+		height: 20vw;
+	}
+	.covertext{
+		line-height: 2rem;
+	}
+	.about-img{
+		height: 50vw;
+	}
+	.about{
+		height: 100%;
+	}
+	.about-inner{
+		padding: 0;
+	}
+	.about-text{
+		font-size: 1rem;
+	}
+	.services{
+		height: 100%;
+	}
+	.Gymclass{
+		height: 100%;
+		padding: 2rem 0;
+	}
+	.serv{
+		width: 100%;
+	}
+	.gallery{
+		height: 100%;
+	}
+	.slides{
+		height: 100%;
+	}
+}
+
 /*media query for standard laptop and desktop*/
 @media all and (min-width: 1140px){
 	.cover{
-		height: 90vh;
-		padding: 240px 150px;
+		height: 50vw;
+		padding: 10rem 4rem;
+	}
+	.covertext{
+		line-height: 2rem;
+	}
+	.card_s{
+		margin-top: -2vw;
 	}
 
 	.card-title{
@@ -1247,6 +1195,39 @@ a:hover{
 
 	.subtitle{
 		font-size: 20px;
+	}
+}
+@media all and (min-width: 1366px) and (min-height: 1024px){
+	.card_s{
+		margin-top: -20vw;
+	}
+	.cards{
+		height: 18vw;
+	}
+}
+@media all and (min-width: 1500px){
+	.card_s{
+		margin-top: 0;
+
+	}
+}
+@media all and (min-width: 2000px){
+	.card_s{
+		margin-top: 5vw;
+	}
+	body{
+		font-size: 2rem;
+	}
+	.cover{
+		padding-top: 12vw;
+	}
+	.covertext{
+		font-size: 3rem;
+		line-height: 4rem;
+	}
+	.btn-cover{
+		padding: 1rem;
+		font-size: 2.5rem;
 	}
 }
 /*aminations */
