@@ -105,7 +105,7 @@ main{
 }
 
 .hj{
-    background: linear-gradient(45deg, rgb(255, 67, 1) 20%, black 20%);
+    background: linear-gradient(45deg, rgb(255, 67, 1) 30%, black 30%);
     background-size: cover;
 
 }
