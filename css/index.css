@@ -1150,7 +1150,15 @@ a:hover{
 }
 
 /*media query for standard laptop and desktop*/
-@media all and (min-width: 1140px){
+@media all and (min-width: 1366px) and (min-height: 1024px){
+	.card_s{
+		margin-top: -20vw;
+	}
+	.cards{
+		height: 18vw;
+	}
+}
+@media all and (min-width: 1440px){
 	.cover{
 		height: 50vw;
 		padding: 10rem 4rem;
@@ -1159,7 +1167,7 @@ a:hover{
 		line-height: 2rem;
 	}
 	.card_s{
-		margin-top: -2vw;
+		margin-top: -5vw;
 	}
 
 	.card-title{
@@ -1217,18 +1225,9 @@ a:hover{
 		font-size: 20px;
 	}
 }
-@media all and (min-width: 1366px) and (min-height: 1024px){
+@media all and (min-width: 1440px) and (min-height: 695px){
 	.card_s{
-		margin-top: -20vw;
-	}
-	.cards{
-		height: 18vw;
-	}
-}
-@media all and (min-width: 1500px){
-	.card_s{
-		margin-top: 0;
-
+		margin-top: -2vw;
 	}
 }
 @media all and (min-width: 2000px){
@@ -1248,6 +1247,47 @@ a:hover{
 	.btn-cover{
 		padding: 1rem;
 		font-size: 2.5rem;
+	}
+	.card-title{
+		font-size: 3rem;
+		line-height: 4rem;
+	}
+	.card-text{
+		font-size: 2rem;
+		line-height: 3rem;
+	}
+	.title{
+		font-size: 3rem;
+	}
+	.subtitle, #special{
+		font-size: 2.5rem;
+		line-height: 3rem;
+	}
+	.about-text{
+		font-size: 2rem;
+		line-height: 4rem;
+	}
+	.about-btn{
+		margin-top: 3rem;
+		font-size: 2rem;
+	}
+	.prog{
+		font-size: 2rem;
+		line-height: 4rem;
+	}
+	.sev-img{
+		width: 100%;
+		height: 30%;
+	}
+	.Gymclass{
+		height: 100%;
+		padding: 10rem 0;
+	}
+	.cls{
+		margin: 2rem 0;
+	}
+	.clas2, .enroll{
+		font-size: 2rem;
 	}
 }
 /*aminations */
